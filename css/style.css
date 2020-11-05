@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+}
+.movie{     
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 5px rgba(0, 0, 0, 0.2);
+    margin:1rem;
+    width:300px;
+}
+
+.movie:hover {
+    box-shadow: 0px 50px 50px 0 rgba(0,0,0,.4);
+    -webkit-transform: translate(0,-10px);
+    transform: translate(0,-3px);
+}
+
+.movie img{
+  width:100%;
+}
+
+.movie-info{
+    color:#eee;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+     margin:0;
+}
+
+.movie-info span{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow:0 4px 5px rgba(0, 0, 0, 1.2);
+    border-radius:3px;
+    font-weight:bold;
+    padding:0.25rem 0.5rem;
+}
+
+.movie-info span.green{
+   color: #56ab2f;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to left, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to left, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.movie-info span.orange{
+    color: rgb(199, 157, 80);
+}
+.movie-info span.red{
+    color: #cb2d3e;  /* fallback for old browsers */
+   color: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+   color: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
