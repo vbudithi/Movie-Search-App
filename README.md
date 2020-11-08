@@ -6,6 +6,12 @@ A Web Application built to search your favourite movie, view the ratings and an 
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/vbudithi/)
 
+
+## How to use
+
+- Fork and clone the repository.
+- Open in the live sever or just open the index.html.
+
 ## API
 
 API Movie Search Resource - **[Devlopers API](https://developers.themoviedb.org/3/getting-started/introduction)**
@@ -17,9 +23,5 @@ The Movie Search website deployed in Netlify - **[Movie Search Website](https://
 
 ![](assets/Movie_App2.png)
 
-## How to use
-
-- Fork and clone the repository.
-- Open in the live sever or just open the index.html.
 
 LinkedIn Profile - **[Vivek Budithi](https://www.linkedin.com/in/vivek-budithi-a27321151/)**  
